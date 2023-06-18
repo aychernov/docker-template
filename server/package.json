@@ -5,16 +5,17 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "serve": "nodemon app.js"
+    "serve": "nodemon --legacy-watch app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.13.5"
   },
   "devDependencies": {
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.22"
   }
 }
